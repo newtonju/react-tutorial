@@ -5,7 +5,7 @@ import './index.css';
 import run from "github-pages-deploy-action";
 
 run({
-  token: process.env["ACCESS_TOKEN"],
+  token: process.env["96545cc1edda60d64c494bb2b7f622059aa8a123"],
   branch: "gh-pages",
   folder: "build",
   repositoryName: "JamesIves/github-pages-deploy-action",
@@ -164,4 +164,5 @@ function Square(props)
       }
     }
     return null;
+
   }
